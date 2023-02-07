@@ -19,3 +19,17 @@
 - Includes all the risks possible and the level os severity 
 - Table : Description -> chance of occurence -> potential damage -> risk
 
+
+
+# Dev Environments
+
+## What is a dev environments
+- A development environment is the collection of processes and tools that are used to develop the source code for a program or software product. This involves the entire environment that supports the process end to end, including development, staging and production servers.
+
+## What makes a good dev environment?
+- User-friendly, fast and robust
+- It should be easy to update
+- It should match the production environment as closely as possiblex
+- It should be the same for everyone, everywhere    
+- It should support one application 
+    - App 1 may use a version of a program that may conflict what app 2 is using
