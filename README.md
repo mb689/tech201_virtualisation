@@ -45,3 +45,15 @@
 - 4. Next download vagrant -> (https://developer.hashicorp.com/vagrant/downloads)
     - Check for version on bash:
     - ![](./Images/Git%20Bash%20(Vargrant%20version).png)
+- 5. Make the configuration file for vagrant by typing in `vagrant init ubuntu/xenial64` in git bash.
+    - ![](./Images/Vagrant%20setup.png)
+    - Once this is done a new file will be added to our directory:
+    - ![](./Images/Vagrant%20(config%20file).png)
+- 6. Now we need to send the information to virtual box by using the command `vagrant up` on git bash.
+- 7. We now need to connect virtual box by entering the command `vagrant ssh` in git bash.
+    - Below is an indication of us being connected:
+    - ![](./Images/connected%20to%20virtualbox.png)
+- 8. We now need to install `nginx` by entering the command `sudo apt-get install nginx -y`
+- 9. Now we start nginx using `nginx start`
+- 8. In our vagrant file we need to include `config.vm.network "private_network", ip: "192.168.10.100"` to access it in a web-page
+- 10. In order for this to work we need `exit` the virtual box and then type in the command `virtual reload` to update any new additions in the vagrant file.
