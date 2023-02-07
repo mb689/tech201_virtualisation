@@ -33,3 +33,15 @@
 - It should be the same for everyone, everywhere    
 - It should support one application 
     - App 1 may use a version of a program that may conflict what app 2 is using
+
+
+## Making a dev environment
+- 1. Install ruby (https://rubyinstaller.org/downloads/)
+- 2. Check it is installed by going on git bash and typing in `ruby --version` in the terminal.
+    - ![](./Images/Git%20Bash%20(Ruby%20version).png)
+- 3. Install virtual box via -> (https://www.virtualbox.org/wiki/Download_Old_Builds_6_1)
+    - For virtual box to work we need to enable some window feature for virtualisation
+    ![](./Images/windows%20features.png)
+- 4. Next download vagrant -> (https://developer.hashicorp.com/vagrant/downloads)
+    - Check for version on bash:
+    - ![](./Images/Git%20Bash%20(Vargrant%20version).png)
