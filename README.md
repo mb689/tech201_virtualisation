@@ -57,3 +57,5 @@
 - 9. Now we start nginx using `nginx start`
 - 8. In our vagrant file we need to include `config.vm.network "private_network", ip: "192.168.10.100"` to access it in a web-page
 - 10. In order for this to work we need `exit` the virtual box and then type in the command `virtual reload` to update any new additions in the vagrant file.
+
+
