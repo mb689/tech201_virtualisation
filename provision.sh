@@ -17,3 +17,4 @@ sudo apt-get install nodejs -y
 
 # Install pm2
 sudo npm install pm2 -g
+
