@@ -59,3 +59,27 @@
 - 10. In order for this to work we need `exit` the virtual box and then type in the command `virtual reload` to update any new additions in the vagrant file.
 
 
+## Testing tools
+- `gem install bundler` ruby testing bundle.
+- `bundle`
+- `rake bundle` runs all the tests to check if everything is downloaded
+- `app` Includes all the tools and software to run program.
+- `sudo apt-get update -y` update every tool in the program
+- `sudo apt-get upgrade -y` upgrades all the tools in the program (should be careful)
+
+## Install nginx 
+- `sudo apt-get install nginx -y`
+- `sudo systemctl enable / * nginx`
+
+## Install node js (specific version)
+- `sudo apt-get install python-software-properties`
+- `curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -`
+- `sudo apt-get install nodejs -y`
+
+## Install pm2 
+- `sudo npm install pm2 -g`
+
+## Running the app
+- `npm install`
+- `node app.js`
+- Access app through port `3000`
