@@ -31,3 +31,21 @@
 - `rm -rf` will delete a folder and everything inside it
 - `man` list the manual for commands
 - `grep` linux version of searching for things
+
+
+### Linux Permission
+- r (read) - you may view the contents of the file
+- w (write) - you may change the contents of a file
+- x (execute) - you may execute or the run the file
+- Persmission output in the format to show permissions for owner/groups/all
+
+### Change permissions
+- `chmod` is used to change permissions for example `chmod u+x file.txt`
+- `u` for users/owner, `g` for group and `o` for other.
+- `chmod 777` gives permission for everyone.
+- `4` is read `2` is write `1` is execute
+
+
+### Processes
+- `ps` lists all processes.
+- `kill` will end end a process or `kill -9` will end a process by force. 
