@@ -10,6 +10,12 @@ sudo apt-get install nginx -y
 # Enable/Start nginx
 sudo systemctl enable nginx -y
 
+sudo mv reverse_proxy /etc/nginx/sites-available/default
+# Checks
+sudo nginx -t
+# Restart nginx to confirm changes
+sudo systemctl restart nginx -y
+
 # Install node js specific version
 sudo apt-get install python-software-properties
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
